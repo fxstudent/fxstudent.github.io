@@ -1,4 +1,13 @@
-languageCode = "ja-jp"
+languageCode = "ja-JP"
 baseURL = ""
-title = "fxstudent"
+title = "Firefox学生マーケティングチーム"
 theme = "anubis"
+paginate = 10
+disqusShortname = "fxstudent"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
